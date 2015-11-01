@@ -1,0 +1,15 @@
+{
+    "name": "张三",
+    "age": 18,
+    "sex": "男",
+    "other": {
+        "phone": 13322332233,
+        "address": "广州",
+        "more": {
+            "height": 175,
+            "weight": 70,
+            "like": [{"food": "apple"},
+                     {"food": "orange"}]
+        }
+    }
+}
