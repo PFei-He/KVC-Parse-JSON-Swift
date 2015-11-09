@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //从文件中读取JSON
+        PersonModel.sharedInstance().JSON = PFFile.fileName("person")
+        
         return true
     }
 
